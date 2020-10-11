@@ -4,6 +4,7 @@
   gather_facts: true
 
   tasks:
-
     - name: Formating user input (Remove new lines from variable) and setting variables from survey
-      shell: touch /tmp/ansible_hello_world.txt
+      file:
+        path: ~/ansible_touch.txt
+        state: touch
