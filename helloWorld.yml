@@ -1,6 +1,6 @@
 ---
 - name: Running helloWorld.yml
-  hosts: localhost
+  hosts: all
   gather_facts: true
 
   tasks:
